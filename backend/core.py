@@ -21,7 +21,7 @@ vectorstore = PineconeVectorStore(
 
 #initialize chat model
 model = init_chat_model(
-    model="qwen3:8b",
+    model="qwen2.5:3b",
     model_provider="ollama"
 )
 
