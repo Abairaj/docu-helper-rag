@@ -79,7 +79,7 @@ async def main():
     })
     
     # convert to docs
-    all_docs = [Document(page_content=result['raw_content'],meta_data={"source":result['url']}) for result in results['results']]
+    all_docs = [Document(page_content=result['raw_content'],metadata={"source":result['url']}) for result in results['results']]
 
 
     # split documents into chunks
