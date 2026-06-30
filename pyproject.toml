@@ -25,6 +25,7 @@ dependencies = [
     "nltk>=3.9.4",
     "openai>=2.44.0",
     "pillow>=12.2.0",
+    "pre-commit>=4.6.0",
     "python-dotenv>=1.2.2",
     "streamlit>=1.58.0",
     "streamlit-chat>=0.1.1",
