@@ -1,11 +1,10 @@
 import asyncio
 import os
 import ssl
-from typing import Any, Dict, List
+from typing import List
 
 import certifi
 from dotenv import load_dotenv
-from langchain_chroma import Chroma
 from langchain_core.documents import Document
 from langchain_ollama import OllamaEmbeddings
 from langchain_pinecone import PineconeVectorStore
